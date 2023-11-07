@@ -1,6 +1,6 @@
 # README
 
-This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+This is an example Payfast endpoint for PayPal/Braintree solutions to be able to deploy on Render Web Services. It is a direct clone of their Node Express "Hello World" repo. All business logic required occurs within app.js. It is not a verbose example and should only be used as an endpoint which is deployed to generate a stored PayPal token and send that token to your preferred payment service provider.
 
 The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
 
