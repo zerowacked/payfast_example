@@ -17,6 +17,11 @@ app.get("/", (req, res) => {
       res.sendStatus(200)
     }
   });
+  fetch('https://quotes.toscrape.com/random')
+    .then((response) => response.text())
+    .then((body) => {
+        console.log(body);
+    }); 
 });
 
 const server = app.listen(port, () => console.log(`Payfast app listening on port: ${port}!`));
