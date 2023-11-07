@@ -24,6 +24,7 @@ app.get("/", (req, res) => {
     }); 
 });
 
+const randomVariable = "Ignore this var"
 const server = app.listen(port, () => console.log(`Payfast app listening on port: ${port}!`));
 const gateway = new braintree.BraintreeGateway({
   environment: braintree.Environment.Sandbox,
