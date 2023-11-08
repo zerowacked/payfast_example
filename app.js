@@ -1,5 +1,6 @@
 const express = require("express");
 const braintree = require("braintree")
+const cors = require("cors")
 const app = express();
 const port = process.env.PORT || 3001;
 
